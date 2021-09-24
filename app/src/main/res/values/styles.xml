@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="toolbar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="backgroundCorreto">
+        <item name="android:backgroundTint">#38C53D</item>
+
+    </style>
+
+    <style name="EstiloProjeto">
+        <item name="android:background">#E5E9FF</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:backgroundTint">#758CFF</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">30dp</item>
+        <item name="android:layout_width">281dp</item>
+        <item name="android:layout_height">53dp</item>
+    </style>
+
+    <style name="rectangle">
+        <item name="background">@drawable/rectangle</item>
+        <item name="cornerRadius">30dp</item>
+    </style>
+
+    <style name="Respostas">
+        <item name="android:textColor">#758CFF</item>
+    </style>
+
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Desafio1_Perguntados</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="perg_resp">Perguntas e Respostas</string>
+    <string name="Responda_10">Responda 10 perguntas e veja sua pontuação no fim!</string>
+    <string name="start">Start!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="perg_resp_topo">Perguntas e respostas</string>
+    <string name="Pergunta1">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum? </string>
+    <string name="responder">Responder</string>
+    <string name="proxima_pergunta">Próxima Pergunta</string>
+    <string name="perg2">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum?</string>
+    <string name="perg3">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum?</string>
+    <string name="perg4">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum?</string>
+    <string name="perg5">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum?</string>
+    <string name="perg6">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum?</string>
+    <string name="perg7">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum?</string>
+    <string name="perg10">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum?</string>
+    <string name="pontuação">Sua pontuação foi de:</string>
+    <string name="tryagain">Tentar novamente</string>
+</resources>

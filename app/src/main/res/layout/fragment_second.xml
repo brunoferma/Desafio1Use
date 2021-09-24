@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/EstiloProjeto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <EditText
+        android:id="@+id/bar"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:background="@drawable/bar"
+        android:gravity="center"
+        android:text="@string/perg_resp_topo"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/perg1"
+        android:layout_width="327dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="22dp"
+        android:text="@string/Pergunta1"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bar" />
+
+    <EditText
+        android:id="@+id/Respostas"
+        style="@style/Respostas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="276dp"
+        android:text="Respostas"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perg1"
+        tools:ignore="HardcodedText" />
+
+    <RadioGroup
+        android:id="@+id/Radio_Group_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Respostas">
+
+        <RadioButton
+            android:id="@+id/Radio_Btn1"
+            android:layout_width="310dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rectangle"
+            android:text="2016"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/Radio_Btn2"
+            android:layout_width="310dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rectangle"
+            android:text="2018"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/Radio_Btn3"
+            android:layout_width="310dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rectangle"
+            android:text="2017"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/Radio_Btn4"
+            android:layout_width="310dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rectangle"
+            android:text="2015"
+            android:textColor="@color/black" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/NextBtn"
+        style="@style/Button"
+        android:layout_width="327dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/proxima_pergunta"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Radio_Group_Id" />
+
+    <Button
+        android:id="@+id/Responder_Btn"
+        style="@style/Button"
+        android:layout_width="327dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/responder"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Radio_Group_Id" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

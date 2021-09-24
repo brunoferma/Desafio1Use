@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstFragment">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.use.desafio1_perguntados.FirstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_firstFragment_to_secondFragment"
+            app:destination="@id/secondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.use.desafio1_perguntados.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_secondFragment_to_thirdFragment"
+            app:destination="@id/thirdFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="com.use.desafio1_perguntados.ThirdFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" >
+        <action
+            android:id="@+id/action_thirdFragment_to_forthFragment"
+            app:destination="@id/forthFragment" />
+        <argument
+            android:name="pontos"
+            app:argType="integer" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/forthFragment"
+        android:name="com.use.desafio1_perguntados.ForthFragment"
+        android:label="fragment_forth"
+        tools:layout="@layout/fragment_forth" >
+        <action
+            android:id="@+id/action_forthFragment_to_fifthFragment"
+            app:destination="@id/fifthFragment" />
+        <argument
+            android:name="pontos"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/fifthFragment"
+        android:name="com.use.desafio1_perguntados.FifthFragment"
+        android:label="fragment_fifth"
+        tools:layout="@layout/fragment_fifth" >
+        <action
+            android:id="@+id/action_fifthFragment_to_sixthFragment"
+            app:destination="@id/sixthFragment" />
+        <argument
+            android:name="pontos"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/sixthFragment"
+        android:name="com.use.desafio1_perguntados.SixthFragment"
+        android:label="fragment_sixth"
+        tools:layout="@layout/fragment_sixth" >
+        <action
+            android:id="@+id/action_sixthFragment_to_seventhFragment"
+            app:destination="@id/seventhFragment" />
+        <argument
+            android:name="pontos"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/seventhFragment"
+        android:name="com.use.desafio1_perguntados.SeventhFragment"
+        android:label="fragment_seventh"
+        tools:layout="@layout/fragment_seventh">
+        <argument
+            android:name="pontos"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_seventhFragment_to_eigthFragment"
+            app:destination="@id/eighthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/eighthFragment"
+        android:name="com.use.desafio1_perguntados.EighthFragment"
+        android:label="fragment_eighth"
+        tools:layout="@layout/fragment_eighth">
+        <argument
+            android:name="pontos"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_eighthFragment_to_ninthFragment"
+            app:destination="@id/ninthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ninthFragment"
+        android:name="com.use.desafio1_perguntados.NinthFragment"
+        android:label="fragment_ninth"
+        tools:layout="@layout/fragment_ninth" >
+        <argument
+            android:name="pontos"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_ninthFragment_to_tenthFragment"
+            app:destination="@id/tenthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tenthFragment"
+        android:name="com.use.desafio1_perguntados.TenthFragment"
+        android:label="fragment_tenth"
+        tools:layout="@layout/fragment_tenth" >
+        <argument
+            android:name="pontos"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_tenthFragment_to_eleventhFragment"
+            app:destination="@id/eleventhFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/eleventhFragment"
+        android:name="com.use.desafio1_perguntados.EleventhFragment"
+        android:label="fragment_eleventh"
+        tools:layout="@layout/fragment_eleventh" >
+        <argument
+            android:name="pontos"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_eleventhFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.use.desafio1_perguntados.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" >
+        <argument
+            android:name="pontos"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_resultFragment_to_firstFragment"
+            app:destination="@id/firstFragment" />
+    </fragment>
+</navigation>
