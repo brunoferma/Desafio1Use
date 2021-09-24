@@ -11,7 +11,7 @@ import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import androidx.navigation.fragment.findNavController
 import com.example.usedesafioum.databinding.FragmentSecondBinding
-import com.use.desafio1_perguntados.databinding.FragmentSecondBinding
+
 
 
 class SecondFragment : Fragment() {

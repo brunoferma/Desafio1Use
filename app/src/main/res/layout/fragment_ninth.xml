@@ -22,10 +22,10 @@
 
     <EditText
         android:id="@+id/perg8"
-        android:layout_width="327dp"
-        android:layout_height="77dp"
+        android:layout_width="322dp"
+        android:layout_height="132dp"
         android:layout_marginTop="22dp"
-        android:text="Play me Old King Cole..."
+        android:text="@string/perg10"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,7 +64,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="That I may join with you"
+            android:text="RESPOSTA1"
             android:textColor="@color/black" />
 
         <RadioButton
@@ -74,7 +74,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="All your hearts now seen so far from me"
+            android:text="RESPOSTA2"
             android:textColor="@color/black" />
 
         <RadioButton
@@ -84,7 +84,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="It hardly seems to matter now"
+            android:text="RESPOSTA3"
             android:textColor="@color/black" />
 
         <RadioButton
@@ -94,7 +94,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="The Musical Box é bom demais meu deus do céu, você deveria ouvir se desconhece"
+            android:text="RESPOSTA4"
             android:textColor="@color/black" />
 
     </RadioGroup>

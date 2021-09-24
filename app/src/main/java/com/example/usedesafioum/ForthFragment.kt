@@ -9,7 +9,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.usedesafioum.databinding.FragmentForthBinding
-import com.use.desafio1_perguntados.databinding.FragmentForthBinding
+
 
 
 class ForthFragment : Fragment() {

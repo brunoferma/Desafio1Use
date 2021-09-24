@@ -11,13 +11,12 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.usedesafioum.R
 import com.example.usedesafioum.databinding.FragmentThirdBinding
-import com.use.desafio1_perguntados.databinding.FragmentFirstBinding
-import com.use.desafio1_perguntados.databinding.FragmentThirdBinding
+
 
 class ThirdFragment : Fragment() {
 
     private lateinit var binding: FragmentThirdBinding
-    private val args: FragmentThirdArgs by navArgs()
+    private val args: ThirdFragmentArgs by navArgs()
     private lateinit var imageButton: ImageButton
 
 

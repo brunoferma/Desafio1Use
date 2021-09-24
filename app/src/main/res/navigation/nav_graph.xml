@@ -72,6 +72,7 @@
         <argument
             android:name="pontos"
             app:argType="integer" />
+
     </fragment>
     <fragment
         android:id="@+id/seventhFragment"
@@ -90,12 +91,13 @@
         android:name="com.use.desafio1_perguntados.EighthFragment"
         android:label="fragment_eighth"
         tools:layout="@layout/fragment_eighth">
-        <argument
-            android:name="pontos"
-            app:argType="integer" />
+
         <action
             android:id="@+id/action_eighthFragment_to_ninthFragment"
             app:destination="@id/ninthFragment" />
+        <argument
+            android:name="pontos"
+            app:argType="integer" />
     </fragment>
     <fragment
         android:id="@+id/ninthFragment"

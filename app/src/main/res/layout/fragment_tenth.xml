@@ -22,10 +22,10 @@
 
     <EditText
         android:id="@+id/perg9"
-        android:layout_width="327dp"
-        android:layout_height="77dp"
+        android:layout_width="350dp"
+        android:layout_height="114dp"
         android:layout_marginTop="22dp"
-        android:text="Azeitona é bom demais... né?"
+        android:text="@string/perg10"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,7 +64,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="Com pimentão então hmmmmm"
+            android:text="RESPOSTA1"
             android:textColor="@color/black" />
 
         <RadioButton
@@ -74,7 +74,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="Nunca comi um negócio tão asqueroso"
+            android:text="RESPOSTA2"
             android:textColor="@color/black" />
 
         <RadioButton
@@ -84,7 +84,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="AZEITONA PRETA"
+            android:text="RESPOSTA3"
             android:textColor="@color/black" />
 
         <RadioButton
@@ -94,7 +94,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="Ewwwwww"
+            android:text="RESPOSTA4"
             android:textColor="@color/black" />
 
     </RadioGroup>

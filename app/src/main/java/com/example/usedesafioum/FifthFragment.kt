@@ -9,8 +9,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.usedesafioum.databinding.FragmentFifthBinding
-import com.use.desafio1_perguntados.databinding.FragmentFifthBinding
-import com.use.desafio1_perguntados.databinding.FragmentForthBinding
+
 
 
 class FifthFragment : Fragment(){
@@ -51,7 +50,7 @@ class FifthFragment : Fragment(){
                 binding.RadioBtn4.setBackgroundColor(Color.parseColor("#38C53D"))
                 binding.ResponderBtn.visibility = View.GONE
                 binding.NextBtn.visibility = View.VISIBLE
-                acertos++
+               acertos++
             }
         }
 

@@ -7,14 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".ThirdFragment">
 
-    <ImageButton
-        android:id="@+id/back_btn"
-        android:layout_width="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginLeft="16dp"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/outline_arrow_back_black_36" />
+
 
     <EditText
         android:id="@+id/bar"
@@ -31,10 +24,10 @@
 
     <EditText
         android:id="@+id/perg2"
-        android:layout_width="327dp"
-        android:layout_height="77dp"
+        android:layout_width="323dp"
+        android:layout_height="137dp"
         android:layout_marginTop="22dp"
-        android:text="@string/perg2"
+        android:text="@string/perg10"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -73,7 +66,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="Klebão garradasso"
+            android:text="RESPOSTA1"
             android:textColor="@color/black" />
 
         <RadioButton
@@ -83,7 +76,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="Marco Cariglia"
+            android:text="RESPOSTA2"
             android:textColor="@color/black" />
 
         <RadioButton
@@ -93,7 +86,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="Melissa"
+            android:text="RESPOSTA3"
             android:textColor="@color/black" />
 
         <RadioButton
@@ -103,7 +96,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="Djalminha EIN EIN EIN?"
+            android:text="RESPOSTA4"
             android:textColor="@color/black" />
 
     </RadioGroup>

@@ -8,8 +8,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.usedesafioum.databinding.FragmentResultBinding
-import com.use.desafio1_perguntados.databinding.FragmentFirstBinding
-import com.use.desafio1_perguntados.databinding.FragmentResultBinding
+
 
 class ResultFragment : Fragment() {
 
@@ -32,5 +31,7 @@ class ResultFragment : Fragment() {
 
 
     }
+
+
 
 }

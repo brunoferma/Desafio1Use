@@ -22,10 +22,10 @@
 
     <EditText
         android:id="@+id/perg5"
-        android:layout_width="327dp"
-        android:layout_height="77dp"
+        android:layout_width="315dp"
+        android:layout_height="143dp"
         android:layout_marginTop="22dp"
-        android:text="@string/perg5"
+        android:text="@string/perg10"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,7 +64,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="One Piece"
+            android:text="RESPOSTA1"
             android:textColor="@color/black" />
 
         <RadioButton
@@ -74,7 +74,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="Cowboy Bebop"
+            android:text="RESPOSTA2"
             android:textColor="@color/black" />
 
         <RadioButton
@@ -84,7 +84,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="Neon Genesis Evangelion"
+            android:text="RESPOSTA3"
             android:textColor="@color/black" />
 
         <RadioButton
@@ -94,7 +94,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="Fullmetal Alchemist Brotherhood"
+            android:text="RESPOSTA4"
             android:textColor="@color/black" />
 
     </RadioGroup>

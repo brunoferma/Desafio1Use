@@ -14,7 +14,7 @@ import com.example.usedesafioum.databinding.ActivityMainBinding.inflate
 import com.example.usedesafioum.databinding.FragmentEighthBinding.inflate
 import com.example.usedesafioum.databinding.FragmentFifthBinding.inflate
 import com.example.usedesafioum.databinding.FragmentFirstBinding
-import com.use.desafio1_perguntados.databinding.FragmentFirstBinding
+
 
 class FirstFragment : Fragment() {
 
@@ -24,7 +24,7 @@ class FirstFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = Fragment.inflate(inflater, container, false)
+        binding = FragmentFirstBinding.inflate(inflater, container, false)
         return binding.root
     }
 
@@ -34,7 +34,7 @@ class FirstFragment : Fragment() {
 
         binding.StartBtn.setOnClickListener {
             findNavController().navigate(
-                FragmentFirstBinding.actionFirstFragmentToSecondFragment()
+               FirstFragmentDirections.actionFirstFragmentToSecondFragment()
             )
         }
     }

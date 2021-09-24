@@ -9,13 +9,12 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.usedesafioum.databinding.FragmentEighthBinding
-import com.use.desafio1_perguntados.databinding.FragmentEighthBinding
-import com.use.desafio1_perguntados.databinding.FragmentSixthBinding
 
 
 class EighthFragment : Fragment() {
     private lateinit var binding: FragmentEighthBinding
-    private val args: FragmentEighthArgs by navArgs()
+    private val args: EighthFragmentArgs by navArgs()
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -29,7 +28,6 @@ class EighthFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         var acertos: Int = args.pontos
-
         binding.ResponderBtn.setOnClickListener {
             if (binding.RadioBtn1.isChecked) {
                 binding.RadioBtn1.setBackgroundColor(Color.parseColor("#FF5A5A"))
@@ -57,16 +55,20 @@ class EighthFragment : Fragment() {
         binding.NextBtn.setOnClickListener {
             if (binding.RadioBtn1.isChecked) {
                 findNavController().navigate(
-                    EighthFragmentDirections.actionEighthFragmentToNinthFragment(acertos))
+                    EighthFragmentDirections.actionEighthFragmentToNinthFragment(acertos)
+                )
             } else if (binding.RadioBtn2.isChecked) {
                 findNavController().navigate(
-                    EighthFragmentDirections.actionEighthFragmentToNinthFragment(acertos))
+                    EighthFragmentDirections.actionEighthFragmentToNinthFragment(acertos)
+                )
             } else if (binding.RadioBtn3.isChecked) {
                 findNavController().navigate(
-                    EighthFragmentDirections.actionEighthFragmentToNinthFragment(acertos))
+                    EighthFragmentDirections.actionEighthFragmentToNinthFragment(acertos)
+                )
             } else if (binding.RadioBtn4.isChecked) {
                 findNavController().navigate(
-                    EighthFragmentDirections.actionEighthFragmentToNinthFragment(acertos))
+                    EighthFragmentDirections.actionEighthFragmentToNinthFragment(acertos)
+                )
             }
         }
     }

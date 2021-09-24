@@ -22,12 +22,12 @@
 
     <EditText
         android:id="@+id/perg1"
-        android:layout_width="327dp"
-        android:layout_height="77dp"
+        android:layout_width="325dp"
+        android:layout_height="129dp"
         android:layout_marginTop="22dp"
-        android:text="@string/Pergunta1"
-        android:textSize="16sp"
+        android:text="@string/perg10"
         android:textColor="@color/black"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bar" />
@@ -65,7 +65,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="2016"
+            android:text="RESPOSTA1"
             android:textColor="@color/black" />
 
         <RadioButton
@@ -75,7 +75,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="2018"
+            android:text="RESPOSTA2"
             android:textColor="@color/black" />
 
         <RadioButton
@@ -85,7 +85,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="2017"
+            android:text="RESPOSTA3"
             android:textColor="@color/black" />
 
         <RadioButton
@@ -95,7 +95,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="2015"
+            android:text="RESPOSTA4"
             android:textColor="@color/black" />
 
     </RadioGroup>

@@ -22,8 +22,8 @@
 
     <EditText
         android:id="@+id/perg11"
-        android:layout_width="327dp"
-        android:layout_height="77dp"
+        android:layout_width="350dp"
+        android:layout_height="106dp"
         android:layout_marginTop="22dp"
         android:text="@string/perg10"
         android:textColor="@color/black"
@@ -64,7 +64,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="CLOUD STRIFE!"
+            android:text="RESPOSTA1"
             android:textColor="@color/black" />
 
         <RadioButton
@@ -74,7 +74,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="AERITH!"
+            android:text="RESPOSTA2"
             android:textColor="@color/black" />
 
         <RadioButton
@@ -84,7 +84,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="SEPHIROTH!"
+            android:text="RESPOSTA3"
             android:textColor="@color/black" />
 
         <RadioButton
@@ -94,7 +94,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/rectangle"
-            android:text="TIFA!"
+            android:text="RESPOSTA4"
             android:textColor="@color/black" />
 
     </RadioGroup>

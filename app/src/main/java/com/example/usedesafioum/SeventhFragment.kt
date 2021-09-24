@@ -9,8 +9,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.usedesafioum.databinding.FragmentSeventhBinding
-import com.use.desafio1_perguntados.databinding.FragmentFifthBinding
-import com.use.desafio1_perguntados.databinding.FragmentSeventhBinding
+
 
 class SeventhFragment : Fragment() {
 
